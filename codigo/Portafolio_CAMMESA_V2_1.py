@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Portafolio CAMMESA - V2.1 CURADA
+Portafolio CAMMESA - V2.1 
 
 Refactor controlado del proyecto original de demanda horaria provincial.
 No reemplaza ni modifica el archivo original.
 
-Objetivos de esta versión:
+Objetivos:
 - corregir la carga del Excel sin eliminar observaciones válidas;
 - validar calidad e integridad de la base;
 - concentrar el análisis en métricas de alto valor;
 - incorporar explícitamente el perfil horario;
-- validar el clustering en lugar de fijar k arbitrariamente;
 - comparar modelos de pronóstico contra un baseline estacional;
 - evaluar pronósticos con MAE, RMSE, MAPE, WAPE y sesgo;
 - priorizar una salida ejecutiva: 6 gráficos principales, 1 análisis avanzado y 1 anexo metodológico.
