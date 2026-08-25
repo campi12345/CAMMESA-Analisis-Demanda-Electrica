@@ -1,0 +1,9 @@
+METRICA,VALOR,UNIDAD,DETALLE
+Demanda nacional 2025,141.250903437,TWh,Nivel anual de referencia más reciente con año completo.
+Variación nacional 2025 vs 2024,0.7356347596875201,%,Cambio acumulado 2023-2025: 0.26%.
+Concentración Top 5 provincial 2025,73.49206578937034,%,Participación conjunta de las cinco provincias de mayor demanda.
+Heterogeneidad provincial 2023-2025,19.791431881559113,p.p.,Mayor crecimiento: CHUBUT 15.99%; mayor caída: JUJUY -3.80%.
+Reducción media en días no hábiles (2023-2025),11.578754864905415,%,Diferencia media respecto de los días hábiles; patrón estable entre años.
+Amplitud del perfil horario medio,37.853261717495876,%,Valle medio 05:00; pico medio 22:00.
+Pico horario absoluto observado,28094.06,MWh,2025-02-10 a las 16:00.
+Pronóstico — robustez fuera de muestra,6.424769458676743,WAPE %,Modelo más robusto: ETS. En el holdout 2026 el mejor fue XGBoost con 4.63% WAPE.

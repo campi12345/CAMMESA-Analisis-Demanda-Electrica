@@ -1,0 +1,77 @@
+{
+  "calidad_datos": {
+    "filas": 30648,
+    "fecha_min": "2023-01-01",
+    "fecha_max": "2026-06-30",
+    "timestamps_duplicados": 0,
+    "nulos_demanda": 0,
+    "valores_negativos": 0,
+    "valores_cero_provinciales": 3,
+    "dias_con_horas_incompletas": 0,
+    "diferencia_max_total_vs_suma_provincias": 0.0,
+    "registros_por_anio": {
+      "2023": 8760,
+      "2024": 8784,
+      "2025": 8760,
+      "2026": 4344
+    }
+  },
+  "demanda_twh": {
+    "2023": 140.883538343,
+    "2024": 140.219400785,
+    "2025": 141.250903437
+  },
+  "variacion_nacional_2024_vs_2023_%": -0.47140891392368767,
+  "variacion_nacional_2025_vs_2024_%": 0.7356347596875201,
+  "variacion_nacional_2025_vs_2023_%": 0.2607579979327479,
+  "top5_participacion_2025_%": {
+    "BUENOS_AIRES": 49.00411652083528,
+    "SANTA_FE": 9.034052671876507,
+    "CORDOBA": 7.710271531011817,
+    "MENDOZA": 4.156745535166613,
+    "CHUBUT": 3.5868795304801258
+  },
+  "concentracion_top5_2025_%": 73.49206578937034,
+  "mayor_crecimiento_2023_2025": {
+    "provincia": "CHUBUT",
+    "variacion_%": 15.99395881544777
+  },
+  "mayor_caida_2023_2025": {
+    "provincia": "JUJUY",
+    "variacion_%": -3.7974730661113414
+  },
+  "reduccion_no_habil_%": {
+    "2023": 11.720220292525378,
+    "2024": 11.544080797662465,
+    "2025": 11.471963504528402,
+    "2026": 11.168401354344077
+  },
+  "perfil_horario": {
+    "hora_pico_promedio": 22,
+    "demanda_hora_pico_promedio_mwh": 18556.714967110416,
+    "hora_valle_promedio": 5,
+    "demanda_hora_valle_promedio_mwh": 13461.208487862177,
+    "amplitud_pico_valle_%": 37.853261717495876,
+    "pico_absoluto_fecha": "2025-02-10",
+    "pico_absoluto_hora": 16,
+    "pico_absoluto_mwh": 28094.06,
+    "valle_absoluto_fecha": "2024-12-25",
+    "valle_absoluto_hora": 8,
+    "valle_absoluto_mwh": 9376.525000000001
+  },
+  "clusters_seleccionados": 3,
+  "modelo_mas_robusto_por_wape_promedio": "ETS",
+  "wape_promedio_folds_%": {
+    "ETS": 6.424769458676743,
+    "SeasonalNaive": 6.639946906023786,
+    "SARIMA": 7.183943861608892,
+    "XGBoost": 7.272147102216852
+  },
+  "mejor_modelo_holdout_2026": "XGBoost",
+  "wape_holdout_2026_%": {
+    "XGBoost": 4.625325105951048,
+    "ETS": 5.341093477618993,
+    "SeasonalNaive": 6.054171723781942,
+    "SARIMA": 6.271500158061855
+  }
+}
