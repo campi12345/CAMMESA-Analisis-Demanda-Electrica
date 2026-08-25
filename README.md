@@ -12,4 +12,4 @@ El proyecto analiza la evolución y distribución de la demanda eléctrica, sus 
 
 La metodología, el desarrollo del análisis, los resultados obtenidos y las conclusiones se encuentran documentados en el informe completo del proyecto:
 
-➡️ [Ver informe completo en PDF](informe/Informe_Final_CAMMESA_Demanda_Provincial.docx)
+➡️ [Ver informe completo en PDF](informe/Informe_Final_CAMMESA_Demanda_Provincial.pdf)
